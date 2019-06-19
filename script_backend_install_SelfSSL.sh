@@ -1,12 +1,11 @@
 #!/bin/bash
 # author: Andre Rosa
-# JUNE 19, 2019
 # objective: Script to install the page
 # THIS SCRIPT USES SELF-SIGNED SSL CERTIFICATES, THEREFORE THIS IS NOT MEANT FOR PRODUCTION
 # IF YOU CHANGED THE FILE IN WINDOWS, USE THE COMMAND BELLOW BEFORE RUNNING THE SCRIPT
-# sed -i 's/\r//' script_backend_v0pt1.sh 
+# sed -i 's/\r//' scriptname.sh 
 # TO RUN THE SCRIPT USE A CLEAN D.O. SERVLET WITH UBUNTU 16.04.6 and SUDO POWERS
-# sudo bash script_backend_v0pt1.sh
+# sudo bash scriptname.sh
 #---------------------------------------------------------------------------
 # GETS ARGUMENTS DOMAIN MUST BE IP, SECOND ARGUMENT IS CREATOR EMAIL
 REPO='https://PUT REPO ADDRESS HERE'  # git bitbucket repository origin of code
