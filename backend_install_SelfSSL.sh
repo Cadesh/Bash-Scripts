@@ -9,12 +9,7 @@
 # sudo bash scriptname.sh
 #---------------------------------------------------------------------------
 
-# to avoid tty error
-# https://superuser.com/questions/1160025/how-to-solve-ttyname-failed-inappropriate-ioctl-for-device-in-vagrant
-sed -i -e 's/mesg n .*true/tty -s \&\& mesg n/g'
-
 # GETS ARGUMENTS DOMAIN MUST BE IP, SECOND ARGUMENT IS CREATOR EMAIL
-
 REPO='https://xxxx@bitbucket.org/xxxx/xxxxx.git' #
 DOMAIN='xxxx.xxxx.com'
 EMAIL='andre@xxxx.com'
