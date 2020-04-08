@@ -6,7 +6,9 @@
 apt update
 apt install gcc -y
 apt install g++ -y
-apt install vim
+apt install vim -y
 apt install make
 apt install net-tools
 apt install openssh-server -y
+apt update -q
+apt upgrade
