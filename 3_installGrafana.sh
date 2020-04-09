@@ -6,6 +6,7 @@
 # https://grafana.com/docs/grafana/latest/installation/debian/
 # docker
 # https://grafana.com/docs/grafana/latest/installation/docker/
+# login on localhost:3000 with user:admin password:admin
 
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y software-properties-common wget
