@@ -1,4 +1,5 @@
 #!/bin/bash
+# after install got to localhost:9090
 PROMETHEUS_VERSION="2.2.1"
 wget https://github.com/prometheus/prometheus/releases/download/v${PROMETHEUS_VERSION}/prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
 tar -xzvf prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
