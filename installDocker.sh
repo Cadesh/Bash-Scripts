@@ -19,7 +19,7 @@ apt-cache policy docker-ce
 apt install docker-ce -y
 
 # install compose
-apt install docker-compose
+apt install docker-compose -y
 
 # check if it is running
 systemctl status docker
