@@ -20,6 +20,9 @@ sudo apt install docker-ce -y
 # check if it is running
 sudo systemctl status docker
 
+# install docker-compose
+apt install docker-compose -y
+
 # To later add an user to run without sudo
 #sudo usermod -aG docker ${USER}
 #su - ${USER}
