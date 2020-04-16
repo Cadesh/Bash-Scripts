@@ -11,4 +11,4 @@ apt install make
 apt install net-tools
 apt install openssh-server -y
 apt update -q
-apt upgrade
+apt upgrade -y
