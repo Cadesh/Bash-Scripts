@@ -1,6 +1,6 @@
 #!/bin/bash
 # install docker on Ubuntu 18.04
-# to claan windows /r errors use:  sed -i 's/\r//' <scriptname>
+# to clean windows /r errors use:  sed -i 's/\r//' <scriptname>
 apt update
 apt update -q
 
